@@ -84,7 +84,40 @@ a:hover {
 	color: #FFF;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
-
+#projects {
+	background-color: #f8f9fa;
+	padding: 50px 0;
+  }
+  
+  #project-cards .card {
+	margin-bottom: 30px;
+  }
+  
+  #project-cards .card-img-top {
+	height: 200px;
+	object-fit: cover;
+  }
+  
+  #project-cards .card-title {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  #project-cards .card-text {
+	font-size: 16px;
+	margin-bottom: 20px;
+  }
+  
+  #project-cards .btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+  }
+  
+  #project-cards .btn-primary:hover {
+	background-color: #0069d9;
+	border-color: #0062cc;
+  }
+  
 @media (max-width: 600px) {
 	header {
 		text-align: center;
