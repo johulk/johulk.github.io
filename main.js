@@ -3,8 +3,8 @@ fetch('projects.json')
   .then(data => {
     const projectCards = document.getElementById('project-cards');
     data.projects.forEach(project => {
-      const card = document.createElement('div');
-      card.classList.add('col-md-4');
+        const card = document.createElement('div');
+        card.classList.add('col-md-3', 'mx-3', 'my-3');
       card.innerHTML = `
         <div class="card">
           <img src="${project.image}" class="card-img-top" alt="${project.title}">
