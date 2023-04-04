@@ -1,4 +1,4 @@
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-$("#particle-button").click(function(){
-  particlesJS.load('particle-div','particles.json');  
+particlesJS.load('particle-div', 'assets/particles.json', function() {
+  console.log('callback - particles.js config loaded');
 });
