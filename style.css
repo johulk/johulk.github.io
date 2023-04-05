@@ -1,3 +1,8 @@
+:root {
+	--main-bg-color: #121212;
+	----bs-body-color: #121212;
+  }
+
 
 body, html {
 	height: 100%;
@@ -5,7 +10,7 @@ body, html {
 	font: 400 15px/1.8 "Lato", sans-serif;
 	color: #121212;
   }
-  :root {
+  .--bs-body-color {
 	--main-bg-color: #121212;
   }
 
