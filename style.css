@@ -2,8 +2,8 @@
 	--bs-body-color: #121212;
 }
 
-#bg{
-	min-height: 100%;
+#bgIntro{
+	min-height: 970px;
 	min-width: 1024px;
 	max-height: 100%;
 	  
@@ -16,6 +16,14 @@
 	top: 0;
 	left: 0;
 }
+
+#contentBody{
+	position: relative;
+	background-color: midnightblue;
+	margin-top: 970px;
+	max-height: 100%;
+}
+
 body,
 html {
 	height: 100%;
