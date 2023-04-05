@@ -1,13 +1,15 @@
 :root {
 	--bs-body-color: #121212;
-  }
+}
 
-body, html {
+body,
+html {
 	height: 100%;
 	margin: 0;
 	font: 400 15px/1.8 "Lato", sans-serif;
 	background-color: #121212;
-	overflow: hidden; /* Hide scrollbars */
+	overflow: hidden;
+	/* Hide scrollbars */
 
 }
 
@@ -16,29 +18,32 @@ body, html {
 	height: 100vh;
 	overflow-x: hidden;
 	overflow-y: auto;
-	
-  }
-  .parallax__layer {
+
+}
+
+.parallax__layer {
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-  }
-  .parallax__layer--base {
+}
+
+.parallax__layer--base {
 	transform: translateZ(-2px) scale(3);
-  }
-  .parallax__layer--back {
+}
+
+.parallax__layer--back {
 	transform: translateZ(-1px) scale(2);
 
-  }
+}
 
 
 #particle-div {
 	position: relative;
-    margin: 0 auto;
-    width:100%;
-    height:100%;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
 	background-attachment: fixed;
 }
 
@@ -46,19 +51,44 @@ body, html {
 	position: absolute;
 	margin-top: 180px;
 	border-radius: 10px;
-	backdrop-filter: blur(8px); /* Chrome and Opera */
-	box-shadow: inset 0 0 0 200px rgba(255,255,255,0.01);
+	backdrop-filter: blur(8px);
+	/* Chrome and Opera */
+	box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.01);
 	padding-top: 50px;
-  }
-  
+}
 
-#intro-div{
+
+.frost-box2 {
+	position: absolute;
+	margin-top: 500px;
+	border-radius: 10px;
+	backdrop-filter: blur(8px);
+	/* Chrome and Opera */
+	box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.01);
+	padding-top: 50px;
+}
+
+#outro-div {
 	width: 100%;
 	height: 150px;
 }
-  
 
-#intro-div h1{
+
+#outro-div h1 {
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
+
+#intro-div {
+	width: 100%;
+	height: 150px;
+}
+
+
+#intro-div h1 {
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
