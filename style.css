@@ -5,6 +5,9 @@ body, html {
 	font: 400 15px/1.8 "Lato", sans-serif;
 	color: #121212;
   }
+  :root {
+	--main-bg-color: #121212;
+  }
 
   #particle-div {
     margin: 0 auto;
