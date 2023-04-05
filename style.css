@@ -18,10 +18,16 @@
 }
 
 #contentBody{
-	position: relative;
-	background-color: midnightblue;
-	margin-top: 970px;
-	max-height: 100%;
+	top: 975px;
+    position: relative;
+    background-color: #0B2447;
+    margin-top: auto;
+    max-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+h1{
+	color: #A5D7E8;
 }
 
 body,
