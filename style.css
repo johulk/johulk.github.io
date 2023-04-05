@@ -8,7 +8,7 @@ body, html {
 	height: 100%;
 	margin: 0;
 	font: 400 15px/1.8 "Lato", sans-serif;
-	color: #121212;
+	background-color: #121212;
   }
   .--bs-body-color {
 	--main-bg-color: #121212;
